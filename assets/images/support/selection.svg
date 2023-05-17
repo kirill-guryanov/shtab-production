@@ -1,0 +1,30 @@
+<svg width="93" height="88" viewBox="0 0 93 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="65.0854" height="62.3143" rx="31.1572" transform="matrix(0.704487 -0.709717 0.755204 0.65549 0 46.1914)" fill="#D0FF48"/>
+<path d="M32 19H42" stroke="black" stroke-width="0.6"/>
+<path d="M28 38H38" stroke="black" stroke-width="0.6"/>
+<path d="M28 58H38" stroke="black" stroke-width="0.6"/>
+<path d="M46 19H56" stroke="black" stroke-width="0.6"/>
+<path d="M42 38H52" stroke="black" stroke-width="0.6"/>
+<path d="M59 19H69" stroke="black" stroke-width="0.6"/>
+<path d="M55 38H65" stroke="black" stroke-width="0.6"/>
+<path d="M55 58H65" stroke="black" stroke-width="0.6"/>
+<path d="M67 38H77" stroke="black" stroke-width="0.6"/>
+<path d="M67 58H77" stroke="black" stroke-width="0.6"/>
+<path d="M46 23H56" stroke="black" stroke-width="0.6"/>
+<path d="M42 42H52" stroke="black" stroke-width="0.6"/>
+<path d="M42 62H52" stroke="black" stroke-width="0.6"/>
+<path d="M42 58H52" stroke="black" stroke-width="0.6"/>
+<path d="M59 23H69" stroke="black" stroke-width="0.6"/>
+<path d="M55 42H65" stroke="black" stroke-width="0.6"/>
+<path d="M55 62H65" stroke="black" stroke-width="0.6"/>
+<path d="M67 42H77" stroke="black" stroke-width="0.6"/>
+<path d="M67 62H77" stroke="black" stroke-width="0.6"/>
+<path d="M32 23H42" stroke="black" stroke-width="0.6"/>
+<path d="M28 42H38" stroke="black" stroke-width="0.6"/>
+<path d="M28 62H38" stroke="black" stroke-width="0.6"/>
+<rect x="23" y="33" width="59" height="14" stroke="black" stroke-width="2"/>
+<rect x="23" y="53" width="59" height="14" stroke="black" stroke-width="2"/>
+<rect x="23" y="14" width="59" height="14" stroke="black" stroke-width="2"/>
+<circle cx="78" cy="19" r="1" fill="#C6FF00"/>
+<circle cx="78" cy="23" r="0.75" stroke="black" stroke-width="0.5"/>
+</svg>

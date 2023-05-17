@@ -1,0 +1,15 @@
+<svg width="99" height="61" viewBox="0 0 99 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="98" height="60" rx="2.5" stroke="black"/>
+<line x1="4.37114e-08" y1="12.5" x2="99" y2="12.5" stroke="black"/>
+<circle cx="81.5" cy="6.5" r="1.5" fill="#1B1B1B"/>
+<circle cx="86.5" cy="6.5" r="1.5" fill="#1B1B1B"/>
+<circle cx="91.5" cy="6.5" r="1.5" fill="#1B1B1B"/>
+<rect x="4.5" y="19.5" width="64" height="4" rx="1.5" fill="#C6FF00" stroke="black"/>
+<rect x="4.5" y="27.5" width="64" height="4" rx="1.5" stroke="#CCCCCC"/>
+<rect x="72.5" y="19.5" width="20" height="36" rx="2.5" stroke="#CCCCCC"/>
+<rect x="4.5" y="35.5" width="64" height="4" rx="1.5" stroke="#CCCCCC"/>
+<rect x="4.5" y="43.5" width="64" height="4" rx="1.5" stroke="#CCCCCC"/>
+<rect x="4.5" y="51.5" width="64" height="4" rx="1.5" stroke="#CCCCCC"/>
+<path d="M25.9677 26.072L25.4375 22L28.8858 24.2264L27.4268 25.1492L25.9677 26.072Z" fill="white"/>
+<path d="M27.4268 25.1492L25.9677 26.072L25.4375 22L28.8858 24.2264L27.4268 25.1492ZM27.4268 25.1492L28.8858 27.2266" stroke="black"/>
+</svg>

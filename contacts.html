@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--yandex maps-->
+    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=f46ac74b-aa85-4eea-ab8e-f810de2c9370&amp;load=package.full&amp;lang=ru-RU"></script>
+    <!-- my styles-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Контакты</title>
+  </head>
+</html>
+<body class="hidden">
+  <div class="loader">
+    <div class="loader-static"></div>
+    <div class="loader-first"></div>
+    <div class="loader-second"></div>
+  </div>
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
+    </div>
+  </div>
+  <div class="burgerMenu">
+    <header class="header--main header--main-black-mode">
+      <div class="container container--header container--header-black-mode">
+        <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--white header__logo-block-image--white-mode" src="./assets/images/header/header-logo--white.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
+        <button class="header__closeBurgerMenuBtn"><img src="./assets/images/utils/closeCross.svg" alt="Логотип веб студии" width="40" height="40"></button>
+      </div>
+    </header>
+    <div class="burgerMenu__animatedWords">
+      <p class="burgerMenu__animatedWords_wordToRight">IT’SHTAB</p>
+      <p class="burgerMenu__animatedWords_wordToLeft">DIGITAL CREW</p>
+    </div>
+    <section class="burgerMenu__content">
+      <div class="container">
+        <h1 class="visibleHidden">Навигация по сайту</h1>
+        <div class="burgerMenu__contentSides">
+          <nav class="burgerMenu__contentNavigation">
+            <ul class="burgerMenu__contentNavigation-leftSide">
+              <li class="burgerMenu__contentNavigation-leftSideItem">
+                <h2 class="burgerMenu__contentNavigation-leftSideItemText">Главная</h2><img class="burgerMenu__contentNavigation-leftSideItemImage" src="assets/images/utils/burgerMenu-arrowWhite.svg" alt="Стрелка" width="68" height="20">
+              </li>
+              <li class="burgerMenu__contentNavigation-leftSideItem">
+                <h2 class="burgerMenu__contentNavigation-leftSideItemText">Услуги</h2><img class="burgerMenu__contentNavigation-leftSideItemImage" src="assets/images/utils/burgerMenu-arrowWhite.svg" alt="Стрелка" width="68" height="20">
+              </li>
+              <li class="burgerMenu__contentNavigation-leftSideItem">
+                <h2 class="burgerMenu__contentNavigation-leftSideItemText">Портфолио</h2><img class="burgerMenu__contentNavigation-leftSideItemImage" src="assets/images/utils/burgerMenu-arrowWhite.svg" alt="Стрелка" width="68" height="20">
+              </li>
+              <li class="burgerMenu__contentNavigation-leftSideItem">
+                <h2 class="burgerMenu__contentNavigation-leftSideItemText">О компании</h2><img class="burgerMenu__contentNavigation-leftSideItemImage" src="assets/images/utils/burgerMenu-arrowWhite.svg" alt="Стрелка" width="68" height="20">
+              </li>
+              <li class="burgerMenu__contentNavigation-leftSideItem">
+                <h2 class="burgerMenu__contentNavigation-leftSideItemText">Контакты</h2><img class="burgerMenu__contentNavigation-leftSideItemImage" src="assets/images/utils/burgerMenu-arrowWhite.svg" alt="Стрелка" width="68" height="20">
+              </li>
+            </ul>
+            <div class="burgerMenu__contentNavigation-line"></div>
+            <div class="burgerMenu__contentNavigation-rightSide">
+              <ul class="burgerMenu__contentNavigation-rightSideList">
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="contacts.html">Контакты</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="blog.html">блог</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="blog-once-page.html">блог одна страница</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="brief.html">бриф</a></li>
+              </ul>
+              <ul class="burgerMenu__contentNavigation-rightSideList">
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="seo.html">SEO продвижение вашего проекта</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="attraction.html">Настройка и ведение рекламы в Яндекс директ</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="sitesDevelopment.html">Создание сайтов, которые работают</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serm.html">Репутация бренда в интернете SERM для бизнеса</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serviceDetail.html">Разработка веб сервисов любой сложности под ключ</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serviceDetailSecond.html">Разработка landing page с конверсией от 5,7%</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serviceDetailSecond-2.html">Разработка интернет магазина любой сложности </a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serviceDetailSecond-3.html">Разработка корпоративных сайтов под ключ</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="modification.html">Доработка веб-сайта и работа с контентом</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="support.html">Техническая поддержка сайтов и проектов</a></li>
+              </ul>
+              <ul class="burgerMenu__contentNavigation-rightSideList">
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serviceDetail.html">услуга детальнвя</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="attraction.html">Настройка и ведение рекламы в Яндекс директ</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="sitesDevelopment.html">Создание сайтов, которые работают</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="serm.html">Serm</a></li>
+              </ul>
+              <ul class="burgerMenu__contentNavigation-rightSideList">
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="studio.html">О студии</a></li>
+              </ul>
+              <ul class="burgerMenu__contentNavigation-rightSideList">
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="">Разработка сайтов</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="">Интернет реклама</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="">Поддержка и обслуживание</a></li>
+                <li class="burgerMenu__contentNavigation-rightSideListItem"><a class="burgerMenu__contentNavigation-rightSideListItemText" href="">Аудиторские услуги</a></li>
+              </ul>
+            </div>
+          </nav>
+          <address class="burgerMenu__contentAddresses"><a class="burgerMenu__contentAddresses-phone" href="tel:79050226228">+7 (905) 022-62-28</a><a class="burgerMenu__contentAddresses-mail" href="mailto:info@itshtab.ru">info@itshtab.ru</a><a class="burgerMenu__contentAddresses-place" href="#">Республика Татарстан, г.<br>Казань, ул. Четаева д.5А</a>
+            <div class="burgerMenu__contentAddresses-socials"><a class="burgerMenu__contentAddresses-socialsItem" href="#"><img class="burgerMenu__contentAddresses-socialsItemIcon" src="assets/images/utils/tg.svg" alt="Телеграм" width="31" height="25"></a><a class="burgerMenu__contentAddresses-socialsItem" href="#"><img class="burgerMenu__contentAddresses-socialsItemIcon" src="assets/images/utils/wh.svg" alt="Ватсап" width="29" height="29"></a><a class="burgerMenu__contentAddresses-socialsItem" href="#"><img class="burgerMenu__contentAddresses-socialsItemIcon" src="assets/images/utils/vk.svg" alt="Вконтакте" width="29" height="29"></a></div><a class="fillingButton fillingButton--burgerMenuAddresses" href="">
+              <div class="fillingButton__imageSrcInDataTag" data-src="assets/images/utils/arrowForFillingButton--white.svg"></div>
+              <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                <circle class="fillingButton__svg-circle fillingButton__svg-circle--burgerMenuAddresses" cx="102" cy="102" r="102" fill="transparent"></circle>
+              </svg>
+              <div class="fillingButton__circle fillingButton__circle--burgerMenuAddresses"></div>
+              <div class="fillingButton__content">
+                <p class="fillingButton__p"><span class="fillingButton__span--smallMargin-and-partial">Подро</span>бнее</p>
+              </div></a>
+          </address>
+        </div>
+      </div>
+    </section>
+  </div>
+  <header class="header--main header--mainPage">
+    <div class="container container--header">
+      <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a><a href="index.html"><img class="header__logo-block-image header__logo-block-image--white" src="./assets/images/header/header-logo--white.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
+      <div class="header__burger-block">
+        <div class="header__burger"><span class="header__burger-span"></span><span class="header__burger-span"></span><span class="header__burger-span"></span></div>
+      </div>
+      <div class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a class="header__nav-item-text" href="services.html">Услуги</a></li>
+          <li class="header__nav-item"><a class="header__nav-item-text" href="projects.html">Проекты</a></li>
+          <li class="header__nav-item"><a class="header__nav-item-text" href="#">Маркетологам</a></li>
+          <li class="header__nav-item"><a class="header__nav-item-text" href="contacts.html">Контакты</a></li>
+        </ul>
+        <!--.header__contacts.header__contacts--narrow-->
+        <!--    ul.header__contacts-items.header__contacts-item--icons-->
+        <!--        .header__contacts-item-->
+        <!--            .header__contacts-item--icon.header__contacts-item--icon--black-->
+        <!--                a( href="#" )-->
+        <!--                    img.header__contacts-item-image.header__contacts-item-image--black(-->
+        <!--                        src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии"-->
+        <!--                        width="31" height="25"-->
+        <!--                    )-->
+        <!--            //.header__contacts-item--icon.header__contacts-item--icon--white-->
+        <!--            //    a( href="#" )-->
+        <!--            //        img.header__contacts-item-image.header__contacts-item-image--white(-->
+        <!--            //            src="./assets/images/header/telegram--transparent--white.svg" alt="Telegram веб студии"-->
+        <!--            //            width="31" height="25"-->
+        <!--            //        )-->
+        <!--        .header__contacts-item-->
+        <!--            .header__contacts-item--icon.header__contacts-item--icon--black-->
+        <!--                a( href="#" )-->
+        <!--                    img.header__contacts-item-image.header__contacts-item-image--black(-->
+        <!--                        src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии"-->
+        <!--                        width="28" height="29"-->
+        <!--                    )-->
+        <!--            //.header__contacts-item--icon.header__contacts-item--icon--white-->
+        <!--            //    a( href="#" )-->
+        <!--            //        img.header__contacts-item-image.header__contacts-item-image--white(-->
+        <!--            //            src="./assets/images/header/whatsapp--transparent--white.svg" alt="Whatsapp веб студии"-->
+        <!--            //            width="28" height="29"-->
+        <!--            //        )-->
+        <!---->
+        <!--        .header__contacts-item.header__contacts-item--numbers-->
+        <!--            a( href="tel: +79050226228" ).header__contacts-item-number +7 (905) 022 - 62 - 28-->
+        <!--            .header__contacts-item-back-call Обратный звонок-->
+      </div>
+      <div class="header__contacts header__contacts--wide">
+        <ul class="header__contacts-items header__contacts-item--icons">
+          <div class="header__contacts-item"><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/telegram--transparent--white.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
+          <div class="header__contacts-item"><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/whatsapp--transparent--white.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
+          <address class="header__contacts-item header__contacts-item--numbers"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a><a class="header__contacts-item-number-image header__contacts-item-number-image--white" href="tel: +79050226228"><img src="./assets/images/header/phone.svg" alt="Телефон" width="23" height="23"></a><a class="header__contacts-item-number-image header__contacts-item-number-image--black" href="tel: +79050226228"><img src="./assets/images/header/phone-black.svg" alt="Телефон" width="23" height="23"></a>
+            <p class="header__contacts-item-back-call">Обратный звонок</p>
+          </address>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="butter" data-scroll-container>
+    <main data-scroll-section>
+      <div class="intro-contacts"><img class="contacts__decoration-circle-contacts" src="assets/images/contacts/decoration-circle.svg" alt="Телефонная трубка" width="465" height="465">
+        <div class="container container--contacts">
+          <div class="contacts__left">
+            <h1 class="contacts__left-title">Контакты</h1>
+            <ul class="contacts__left-contacts-list">
+              <li class="contacts__left-contacts-list-item">
+                <h2 class="contacts__left-contacts-list-item-title">Телефон для связи</h2>
+                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/phone.svg" alt="Телефонная трубка" width="24" height="24">
+                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text contacts__left-contacts-list-item-contacts-text--phone" href="tel:+7 (905) 022-62-28">+7 (905) 022-62-28</a><a class="contacts__left-contacts-list-item-contacts-text--bottom" href="">Написать в whatsapp</a></address>
+                </div>
+              </li>
+              <li class="contacts__left-contacts-list-item">
+                <h2 class="contacts__left-contacts-list-item-title">Для гостей</h2>
+                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/marker.svg" alt="Маркер на карте" width="27" height="27">
+                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="#">г. Казань ул. Четаева д. 5А</a></address>
+                </div>
+              </li>
+              <li class="contacts__left-contacts-list-item">
+                <h2 class="contacts__left-contacts-list-item-title">Режим работы</h2>
+                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/clock.svg" alt="Часы" width="23" height="23">
+                  <address class="contacts__left-contacts-list-item-contacts-texts">
+                    <div class="contacts__left-contacts-list-item-contacts-text--time">Пн — Пт: с 9.00 до 19.00</div>
+                    <div class="contacts__left-contacts-list-item-contacts-text--time">Сб — Вс: с 10.00 до17:00</div>
+                  </address>
+                </div>
+              </li>
+              <li class="contacts__left-contacts-list-item">
+                <h2 class="contacts__left-contacts-list-item-title">Для писем</h2>
+                <div class="contacts__left-contacts-list-item-contacts contacts__left-contacts-list-item-contacts--center"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/mail.svg" alt="Почта" width="21" height="22">
+                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></address>
+                </div>
+              </li>
+            </ul>
+            <div class="contacts__left-button"><a class="fillingButton fillingButton--contacts" href="brief.html">
+                <div class="fillingButton__imageSrcInDataTag" data-src="assets/images/utils/arrowForFillingButton--black.svg"></div>
+                <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                  <circle class="fillingButton__svg-circle fillingButton__svg-circle--contacts" cx="102" cy="102" r="102" fill="transparent"></circle>
+                </svg>
+                <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--contacts"></div>
+                <div class="fillingButton__content">
+                  <p class="fillingButton__p fillingButton__p--black"><span>Заполнить</span>бриф</p>
+                </div></a></div>
+          </div>
+          <div class="contacts__right">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer blackSection sectionForProgresCircleColor" data-scroll-section>
+      <div class="container--footer">
+        <div class="footer__left-side">
+          <div class="footer__left-sideItems">
+            <ul class="footer__blocks">
+              <li class="footer__blocks-item footer__blocks-item--one">
+                <ul class="footer__blocks-item-list footer__blocks-item-list--one">
+                  <li class="footer__blocks-item-logo"><a href="#"><img class="footer__blocks-item-logo-image" src="./assets/images/footer/footer-logo.svg" alt="Логотип веб студии" width="196" height="52"></a></li>
+                  <li>
+                    <p class="footer__blocks-item-text">Ваша команда комплексного интернет маркетинга</p>
+                  </li>
+                  <li class="footer__blocks-item-socials"><a href="#"><img class="footer__blocks-item-socials-item" src="./assets/images/footer/footer-telegram-white-border.svg" alt="Telegram веб студии" width="31" height="25"></a><a href="#"><img class="footer__blocks-item-socials-item" src="./assets/images/footer/footer-whatsapp-white-border.svg" alt="Whatsapp веб студии" width="28" height="29"></a><a href="#"><img class="footer__blocks-item-socials-item" src="./assets/images/footer/footer-vk-white-border.svg" alt="VK веб студии" width="36" height="36"></a></li>
+                </ul>
+              </li>
+              <li class="footer__blocks-item">
+                <h6 class="footer__blocks-item-title">Услуги</h6>
+                <ul class="footer__blocks-item-list footer__blocks-item-list--two">
+                  <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Разработка сайтов</a></li>
+                  <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Привлечение трафика</a></li>
+                  <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Комплексная аналитика</a></li>
+                  <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Техническая поддержка</a></li>
+                </ul>
+              </li>
+              <li class="footer__blocks-item">
+                <h6 class="footer__blocks-item-title">Контакты</h6>
+                <ul class="footer__blocks-item-list footer__blocks-item-list--three">
+                  <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-marker.svg" alt="Картинка маркер на карте">
+                    <address class="footer__blocks-list-item--contacts-text-block">
+                      <p class="footer__blocks-list-item--contacts-text">г. Казань ул. Четаева д. 5А</p>
+                    </address>
+                  </li>
+                  <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-phone.svg" alt="Картинка телефонной трубки">
+                    <address><a class="footer__blocks-list-item--contacts-text" href="tel:+79050226228">+7 (905) 022-62-28</a></address>
+                  </li>
+                  <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-mail.svg" alt="Картинка почты">
+                    <address><a class="footer__blocks-list-item--contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></address>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__left-side-rights">
+            <p class="footer__left-side-rights-text">2013 - 2023 | Все права защищены</p>
+          </div>
+        </div>
+        <div class="footer__right-side-form">
+          <div class="footer__right-side-form-content">
+            <h6 class="footer__right-side-form-title">У вас есть задача для нас?</h6>
+            <form class="footer__right-side-form-form">
+              <input class="footer__right-side-form-form-input" type="name" placeholder="Имя">
+              <input class="footer__right-side-form-form-input" type="tel" placeholder="Телефон">
+              <div class="footer__right-side-form-form-checkbox-block">
+                <input class="footer__right-side-form-form-checkbox" id="footer-checkbox" type="checkbox">
+                <div class="footer__right-side-form-form-checkbox-custom-block">
+                  <div class="footer__right-side-form-form-checkbox-custom">
+                    <div class="footer__right-side-form-form-checkbox-custom--active"></div>
+                  </div>
+                </div>
+                <label class="footer__right-side-form-form-checkbox-block-label" for="footer-checkbox">
+                  Даю согласие на обработку
+                  персональных данных
+                </label>
+              </div>
+              <button class="footer__right-side-form-form-button" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1/dist/locomotive-scroll.min.js"></script>
+<!-- my js-->
+<script src="./assets/js/main.js"></script>
